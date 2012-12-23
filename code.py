@@ -76,5 +76,3 @@ for i in range(len(good_names)):
         webbrowser.open(url, new=2) # 2 == tab
     else:
         print url
-    if (i % 10) == 0:
-        pause = raw_input()
